@@ -1,5 +1,6 @@
+
 import Ember from 'ember';
-import Resolver from './resolver';
+import Resolver from 'ember-engines/resolver';
 import loadInitializers from 'ember-load-initializers';
 import config from './config/environment';
 
@@ -10,7 +11,14 @@ Ember.MODEL_FACTORY_INJECTIONS = true;
 App = Ember.Application.extend({
   modulePrefix: config.modulePrefix,
   podModulePrefix: config.podModulePrefix,
-  Resolver
+  Resolver,
+    engines: {
+        etEngine: {
+            dependencies: {
+                services: []
+            }
+        }
+    }
 });
 
 loadInitializers(App, config.modulePrefix);

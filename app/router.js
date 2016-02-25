@@ -6,6 +6,9 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+    this.route('et', function () {
+        this.mount('et-engine');
+    });
 });
 
 export default Router;
