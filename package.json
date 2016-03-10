@@ -38,7 +38,8 @@
     "ember-export-application-global": "^1.0.4",
     "ember-load-initializers": "^0.5.0",
     "ember-resolver": "^2.0.3",
-    "et-engine": "git+ssh://git@github.com/JackieChiles/et-engine.git",
+    "et-addon": "git+ssh://git@github.com/JackieChiles/et-addon.git#8acbc98a418df86f8529be35dd9dbb5f211abfa1",
+    "et-engine": "git+ssh://git@github.com/JackieChiles/et-engine.git#2f2f0a7daa129e2856cb3e8a47618228e93a19d5",
     "loader.js": "^4.0.0"
   }
 }
