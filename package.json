@@ -36,10 +36,11 @@
     "ember-disable-proxy-controllers": "^1.0.1",
     "ember-engines": "^0.1.4",
     "ember-export-application-global": "^1.0.4",
+    "ember-intl": "2.4.1",
     "ember-load-initializers": "^0.5.0",
     "ember-resolver": "^2.0.3",
     "et-addon": "git+ssh://git@github.com/JackieChiles/et-addon.git#8acbc98a418df86f8529be35dd9dbb5f211abfa1",
-    "et-engine": "git+ssh://git@github.com/JackieChiles/et-engine.git#2f2f0a7daa129e2856cb3e8a47618228e93a19d5",
+    "et-engine": "git+ssh://git@github.com/JackieChiles/et-engine.git#9cf82f2933f139ede5fe967a5cb68aa34194e8df",
     "loader.js": "^4.0.0"
   }
 }

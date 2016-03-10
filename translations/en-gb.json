@@ -1,0 +1,6 @@
+{
+    "product": {
+        "info": "{product} will cost {price, number, EUR} if ordered by {deadline, date, time}",
+        "title": "Hello world!"
+    }
+}
