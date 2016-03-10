@@ -2,5 +2,13 @@
 
 {{outlet}}
 
+<h2>Application.hbs of et-app</h2>
+
 <h3>This et-component is rendered directly in application.hbs of et-app:</h3>
 {{et-component}}
+
+<h3>Translation including currency:</h3>
+{{t 'product.info' product='Widget' price='15.75' deadline=now}}
+
+<h3>Translation including number:</h3>
+{{format-number 6987.58}}
